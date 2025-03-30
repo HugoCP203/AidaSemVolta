@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aida Sem Volta - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Bem-vindo à Aida Sem Volta</h1>
+        <p>Digite seu usuário para acessar o sistema:</p>
+        <input type="text" id="username" placeholder="Digite o setor (coleta/notas)">
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <script>
+        function login() {
+            var user = document.getElementById("username").value;
+            if (user.toLowerCase() === "coleta") {
+                window.location.href = "coleta.html";
+            } else if (user.toLowerCase() === "notas") {
+                window.location.href = "notas.html";
+            } else {
+                alert("Usuário não reconhecido!");
+            }
+        }
+    </script>
+</body>
+</html>
