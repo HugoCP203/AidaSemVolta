@@ -1,0 +1,57 @@
+/* Resetando alguns padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #FF0000; /* Vermelho para cabeçalho */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #FF0000; /* Vermelho para rodapé */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #FF0000; /* Vermelho para os botões */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000; /* Tom mais escuro quando passar o mouse */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FF0000; /* Cor vermelha para títulos */
+}
+
+h2 {
+    font-size: 2rem;
+}
